@@ -1,0 +1,71 @@
+body{
+    font-family: 'Special Elite', cursive;
+    background-image: linear-gradient(to right top, #0252ff, #01f7ff, #183fc1, #0efafa, #002f94);
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.header_div{
+    font-size: 30px;
+    background:rgb(0, 247, 255);
+    margin-right: 15px;
+    border: 8px;
+    border-radius: 15px;
+    border: rgb(0, 0, 0);
+    color: black;
+    box-shadow: 15px 5px 8px rgb(255, 255, 255);
+}
+.header_div img{
+    width: 100px;
+    border-radius: 10px;
+}
+.main_div{
+    padding: 10px;
+    background: rgba(0, 181, 252, 0.76);
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 15px 5px 8px rgb(255, 253, 255);
+}
+.main_div label{
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+    background-color:rgb(0, 4, 250);
+    border-radius: 8px;
+    color:white;
+}
+#cam, #result {
+    width: 320px;
+    height: 320px;
+    border: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px white;
+}
+.main_div button{
+    background: rgb(0, 26, 255);
+    font-size: 10px;
+    width: 200px;
+    border:rgb(0, 0, 0);
+}
+.footer_div{
+    margin-bottom: 50px;
+}
+.footer_div img{
+    width: 80px;
+}
+.footer_div h4{
+    background: rgb(0, 255, 191);
+    border-radius: 10px;
+    padding: 5px;
+}
+.copy_right_footer{
+    color: white;
+    text-align: center;
+    background-color:rgb(25, 0, 255) ;
+    font-size: 30px;
+    font-family: cursive;
+    width: 100%;
+    position: fixed;
+    line-height: 3;
+    bottom:0;
+}
